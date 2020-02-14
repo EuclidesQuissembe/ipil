@@ -1,0 +1,16 @@
+{
+  "name": "IPIL-WEB",
+  "version": "1.0.0",
+  "description": "Página Web para o IPIL",
+  "main": "index.js",
+  "repository": "https://github.com/EuclidesQuissembe/ipil.git",
+  "author": "alpashima <34479530+alpashima@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1",
+    "nodemon": "^2.0.2",
+    "webpack": "^4.41.6",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
