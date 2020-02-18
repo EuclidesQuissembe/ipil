@@ -1,10 +1,5 @@
-.clear{
-    clear: both;
-}
-.web{
-    border: 1px solid #ccc;
-    color: black;
-}
+
+
 .noticia h2{
     text-align: center;
     margin-top: 25px;
@@ -81,5 +76,5 @@
         margin-left: 9px;
         
     }
-    .black-noticia h3
+    
 }
