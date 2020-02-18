@@ -32,20 +32,24 @@
     z-index: 2;
     
 }
-.web {
+.web-query {
     padding: 10px;
     position: fixed;
     width: 100%;
     height: 60px;
 }
-.web{
+.web-query{
     background-color: white;
-    height: 70px;
-    box-shadow: 1px 1px 5px black;
+    height: 80px;
+    box-shadow: 1px 1px 3px #ccc;
+}
+.web-query a{
+    text-decoration: none;
+    color: black;
 }
 .web a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 .web nav ul {
     float: right;

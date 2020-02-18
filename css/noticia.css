@@ -46,3 +46,18 @@
     font-weight: unset;
     background: rgba(0, 0, 0, 0.7);
 }
+.paginacao{
+    display: flex;
+    justify-content: center;
+}
+
+.paginacao  ul li{
+    display: inline-block;
+    margin-top: 30px;
+    
+}
+.paginacao ul a{
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+}
