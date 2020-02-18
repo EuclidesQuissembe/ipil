@@ -123,6 +123,16 @@
     width:60px;
     height:60px;
     margin: 10px auto;
+    background-size: 100% 100%;
+}
+.icon1{
+    background-image: url("../public/mission.png");
+}
+.icon2{
+    background-image: url("../public/values.png");
+}
+.icon3{
+    background-image: url("../public/vision.png");
 }
 .clear{
     clear: both;
