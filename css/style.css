@@ -5,8 +5,7 @@
     box-sizing: border-box;
 }
 .sobre{
-    width: 90%;
-    
+    width:auto;
     text-align: center;
 }
 .header{
@@ -145,12 +144,15 @@
 .area > div{
     width:calc(33% - 15px) ;
     height: 200px;
-    background-image: url("../public/image1.jpg");
     background-size: cover;
     position: relative;
     display: inline-block;
     margin-left: 10px;
     margin-bottom: 10px;
+}
+.area > div img{
+    width:100% ;
+    height: 200px;
 }
 
 .black{
@@ -199,14 +201,20 @@
     width: 80%;
     margin: 0 auto;
 }
+.afiliados {
+    display: flex;
+    justify-content: center;
+    
+}
 .afiliados div {
-    width: 9%;
-   padding: 9%;
-   border-radius: 50%;
-   background-image: url("../public/logo.png");
-   background-size: 100% 100%;
+   width: 200px;
+   height: 200px;
    display: inline-block;
-   margin-left: 12px;
+   margin-left: 20px;
+}
+.afiliados div img {
+    width: 100%;
+    min-width: 150px;
 }
 .evento p{
     text-align: center;
